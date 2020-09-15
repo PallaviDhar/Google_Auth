@@ -1,8 +1,5 @@
 # Google_Auth
 Designing a web page of Google Auth using Firebase
-
-Link to visit the Web Page: 
- https://pallavidhar.github.io/Google_Auth/
  
  # Screenshots
  
