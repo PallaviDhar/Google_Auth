@@ -1,0 +1,14 @@
+body{
+        background: #f2709c; 
+        background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  
+        background: linear-gradient(to right, #ff9472, #f2709c); 
+    }
+
+    h1{
+        font-family: 'IM Fell Great Primer', serif;
+    }
+
+    nav{
+        font-family: 'Stoke', serif;
+        font-weight:bold;
+    }

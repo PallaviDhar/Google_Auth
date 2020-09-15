@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Finman Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+</head>
+<style>
+    .bg_nav{
+        background: #43C6AC;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+</style>
+<body>
+
+    <nav class="navbar bg_nav">
+        <h2 class="navbar-brand text-white">Finman</h2>
+    </nav>
+
+    <div id="result">
+
+
+    </div>
+
+    <div id="profile_pic">
+
+    </div>
+
+<script>
+    console.log(localStorage);
+    document.querySelector('#result').innerHTML = localStorage.getItem('name');
+    document.querySelector('#profile_pic').innerHTML=`<img src="${localStorage.getItem('picture')}">`;
+
+</script>
+</body>
+</html>
